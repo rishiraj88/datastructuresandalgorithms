@@ -3,7 +3,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class DuplicatesInArrayCheck {
-//    without sorting the input array
+//    method 1: without sorting the input array
     public boolean containsDup(int[] nums) {
         Set<Integer> set = new HashSet<>();
 
@@ -16,7 +16,7 @@ public class DuplicatesInArrayCheck {
         return  false;
     }
 
-    // without creating any external data structure
+    // method 2: without creating any external data structure
     public boolean containsDups(int[] nums) {
         Arrays.sort(nums);
 
