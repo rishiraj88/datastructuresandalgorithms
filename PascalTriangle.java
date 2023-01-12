@@ -35,8 +35,6 @@ public class PascalTriangle {
      */
 
     public static void main(String[] args) {
-        System.out.println(generate(5));
-
+        generate(5).stream().forEach(System.out::println);
     }
-
 }
